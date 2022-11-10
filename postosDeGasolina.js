@@ -1,3 +1,4 @@
+
 var postos_de_gasolina = [2, 15, 22, 10.2]
 var consumo = 8
 var combustivel = 2
@@ -23,8 +24,8 @@ var maxDistance = (postos_de_gasolina[postos_de_gasolina.length-1])
 
 if(postos_de_gasolina.length != 0){
   console.log(`O posto mais distante está a`,maxDistance, `km`)
-  return maxDistance;
 }else{
   maxDistance = -1
-  return maxDistance;
+  console.log(maxDistance)
 } 
+return maxDistance;
